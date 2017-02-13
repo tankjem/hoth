@@ -1,5 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Cabin:400,500,600,700';
-
+/*@import 'https://fonts.googleapis.com/css?family=Cabin:400,500,600,700';*/
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,600,700,800';
 html, body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
@@ -9,6 +9,9 @@ html, body {
  
   color: white;
   background: #050505;
+}
+main{
+  padding: 15px;
 }
 a{
   color: white;
@@ -20,7 +23,7 @@ a:hover{
   cursor: pointer;
 }
 li{
-  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   color: white;
 }
@@ -34,13 +37,13 @@ li{
 }
 
 h1{
-  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: white;
   text-align: center;
 }
 h2{
-  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: white;
   font-size: 35px;
@@ -49,7 +52,7 @@ h2{
 
 }
 h3 {
-  font-family: "Cabin", sans-serif;
+  font-family: "Raleway", sans-serif;
 
   color: white;
   font-size: 30px;
@@ -80,7 +83,7 @@ h5{
 }
 
 .prod-details{
-  font-family: cabin, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 
 }
@@ -179,7 +182,7 @@ a.picture1:hover{
 }
 .hero h1 {
     font-size: 6em;
-    font-family: "Cabin", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: white;    
     font-weight: bold;
     margin: 0;
