@@ -6,9 +6,9 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   max-width: 100%;
   text-align: center;
-  /*overflow-x: hidden;*/
+ 
   color: white;
-  background-color: black;
+  background: #050505;
 }
 a{
   color: white;
@@ -25,18 +25,28 @@ li{
   color: white;
 }
 .navbar {
-  background-color: black;
+  background-color: #050505;
 }
 #logo{
   /*display: block;*/
   width: 25px;
   height: 25px;
 }
+
 h1{
   font-family: "Cabin", sans-serif;
-
+  font-weight: 700;
   color: white;
   text-align: center;
+}
+h2{
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 35px;
+  padding-top:30px;
+  text-align: center;
+
 }
 h3 {
   font-family: "Cabin", sans-serif;
@@ -50,32 +60,25 @@ h3 {
 h4 {
   font-size: 25px;
   text-align: center;
+  color: white;
 }
-.container {
-    width: 1000px;
-    height: auto;
-    display: inline-block;
-    /*text-align: center;*/
-    position: relative;
-/*    left: 45%;
-    margin-left: -450px;*/
-  }
+h5{
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .divider {
-  margin-top: 45px;
+  margin-top: 15px;
   width: 100%;
   height:90px;
-  background-color: black;
+  /*background-color: #050505;*/
 }
 .blurb{
-  background-color: black;
+  background-color: #050505;
   margin-top: 15px;
 }
-/*#details {
-  display: inline;
-  float: right;
-  text-align: left;
-  margin-right: 50px;
-}*/
+
 .prod-details{
   font-family: cabin, sans-serif;
   font-size: 20px;
@@ -83,22 +86,45 @@ h4 {
 }
 .show-details {
   list-style-type: none;
+  margin-top: 5px;
 }
 p{
   text-align: left;
   font-size:18px;
   padding: 1.5em;
+  color: white;
 }
 .picture {
-  width:80%;
-  height: 0 auto;
+  width:500px;
+  height: 500px;
   /*margin-left:30%;*/
   display: inline-block;
   /*padding: 25px;*/
 }
+hr.style2 {
+  height: 30px; 
+    border-style: solid; 
+    border-color: #ffffff; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+}
+hr.style2:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
 .picture1{
-  width:300px;
-  height:300px;
+  width:450px;
+  height:450px;
+  padding: 5px;
+}
+a.picture1:hover{
+  cursor: pointer;
 }
 .profile-picture{
   width:220px;
@@ -110,10 +136,16 @@ p{
   display: inline-block;
   float: right;
   padding: 25px;
+  color: white;
+  background: none;
 }
 .fade-carousel {
     position: relative;
     height: 100vh;
+    /*background-color: white;*/
+    background: url("https://static1.squarespace.com/static/54db93fce4b007a652a21148/t/54dd2a58e4b0ee140a976410/1423780440856/21399-red-stage-curtain-1920x1200-abstract-wallpaper.jpg");
+    background-size: contain;
+    /*border-color: white 15px solid;*/
 }
 .fade-carousel .carousel-inner .item {
     height: 100vh;
@@ -191,9 +223,9 @@ p{
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  /*width: 100%;*/
+  width: 100%;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -206,6 +238,7 @@ p{
 .fade-carousel .slides .slide-3 {
   background-image: url("./assets/kingLear.jpg");
 }
+
 
 /********************************/
 /*          Media Queries       */
